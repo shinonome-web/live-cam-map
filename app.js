@@ -20,11 +20,13 @@ const baseLayers = {
   "標準": L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19, attribution: osmAttr
   }),
-  "淡色": L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-    maxZoom: 20, subdomains: "abcd", attribution: osmAttr + ' &copy; <a href="https://carto.com/attributions">CARTO</a>'
+  // 注: CARTOのラスタタイルは2026年からAPIキー必須になり、キーなしでは
+  // 「API KEY REQUIRED」の代替画像が返るため、キー不要なEsriのグレースケールを使う。
+  "淡色": L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
+    maxZoom: 16, attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ'
   }),
-  "ダーク": L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
-    maxZoom: 20, subdomains: "abcd", attribution: osmAttr + ' &copy; <a href="https://carto.com/attributions">CARTO</a>'
+  "ダーク": L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
+    maxZoom: 16, attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ'
   }),
   "地形": L.tileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", {
     maxZoom: 17, subdomains: "abc",

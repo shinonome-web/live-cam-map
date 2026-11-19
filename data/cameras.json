@@ -1,1 +1,160 @@
-[{"category":"街","description":"世界有数の人通りを誇る交差点。夕方から夜のネオンが特に見どころ。","id":"shibuya-scramble","lat":35.6595,"lng":139.7005,"name":"渋谷スクランブル交差点","place":"東京・渋谷","youtubeChannelId":"","youtubeVideoId":"dfVK7ld38Ys"},{"category":"街","description":"渋谷センター街の入口付近。シブヤテレビジョンによる24時間配信。","id":"shibuya-center-gai","lat":35.6599,"lng":139.7,"name":"渋谷センター街","place":"東京・渋谷","youtubeChannelId":"","youtubeVideoId":"CmVnsv71Qr8"},{"category":"街","description":"文化村通りと道玄坂下交差点付近の様子。","id":"shibuya-bunkamura","lat":35.6608,"lng":139.6986,"name":"渋谷・文化村通り","place":"東京・渋谷","youtubeChannelId":"","youtubeVideoId":"NDW4PC7vfSY"},{"category":"街","description":"宮益坂交差点を見下ろすライブカメラ。チャンネルの最新ライブを自動表示します。","id":"shibuya-ai-vision","lat":35.6614,"lng":139.7023,"name":"渋谷 Ai Vision / 宮益坂","place":"東京・渋谷","youtubeChannelId":"UCfvMaqBPqsHXSbmmKzpDvow","youtubeVideoId":""},{"category":"自然","description":"河口湖越しの富士山。晴れた早朝が狙い目。サンプル地点：配信IDは差し替え用です。","id":"fuji-kawaguchiko","lat":35.5175,"lng":138.7514,"name":"富士山・河口湖","place":"山梨・富士河口湖","youtubeChannelId":"","youtubeSearch":"河口湖 富士山 ライブカメラ","youtubeVideoId":""},{"category":"自然","description":"湯けむり上がる湯畑の中心部。夜のライトアップも人気。","id":"kusatsu-yubatake","lat":36.6226,"lng":138.5964,"name":"草津温泉・湯畑","place":"群馬・草津","youtubeChannelId":"","youtubeSearch":"草津温泉 湯畑 ライブカメラ","youtubeVideoId":""},{"category":"街","description":"花見小路付近の街並み。サンプル地点：配信IDは差し替え用です。","id":"kyoto-gion","lat":35.0037,"lng":135.7742,"name":"京都・祇園","place":"京都・祇園","youtubeChannelId":"","youtubeSearch":"京都 祇園 ライブカメラ","youtubeVideoId":""},{"category":"街","description":"道頓堀川と看板の並ぶ繁華街。夜景カテゴリとしても楽しめます。","id":"osaka-dotonbori","lat":34.6687,"lng":135.5013,"name":"大阪・道頓堀","place":"大阪・なんば","youtubeChannelId":"","youtubeSearch":"道頓堀 ライブカメラ","youtubeVideoId":""},{"category":"自然","description":"大通公園とテレビ塔方面。雪まつりの時期は特に混み合います。","id":"sapporo-odori","lat":43.0608,"lng":141.3525,"name":"札幌・大通公園","place":"北海道・札幌","youtubeChannelId":"","youtubeSearch":"札幌 大通 ライブカメラ","youtubeVideoId":""},{"category":"海・港","description":"那覇のメインストリート。南国の空の色の変化が分かります。","id":"naha-kokusai","lat":26.2159,"lng":127.6789,"name":"那覇・国際通り","place":"沖縄・那覇","youtubeChannelId":"","youtubeSearch":"那覇 国際通り ライブカメラ","youtubeVideoId":""},{"category":"街","description":"眠らない街の中心。日本との時差を感じるのにもぴったり。","id":"nyc-times-square","lat":40.758,"lng":-73.9855,"name":"タイムズスクエア","place":"アメリカ・ニューヨーク","youtubeChannelId":"","youtubeSearch":"Times Square live cam YouTube","youtubeVideoId":""},{"category":"海・港","description":"大運河を行き交うゴンドラと水上バス。","id":"venice-grand-canal","lat":45.4371,"lng":12.3358,"name":"ヴェネツィア・運河","place":"イタリア・ヴェネツィア","youtubeChannelId":"","youtubeSearch":"Venice Grand Canal live cam YouTube","youtubeVideoId":""},{"category":"動物","description":"水場に集まる野生動物を狙うカメラ。早朝・夕方が活発。","id":"kenya-safari","lat":-1.4061,"lng":36.9608,"name":"サファリ・ウォーターホール","place":"ケニア","youtubeChannelId":"","youtubeSearch":"Africam live safari cam YouTube","youtubeVideoId":""},{"category":"自然","description":"晴れた冬の夜にオーロラが出ることがあります。","id":"reykjavik-aurora","lat":64.1466,"lng":-21.9426,"name":"オーロラ観測地点","place":"アイスランド・レイキャビク","youtubeChannelId":"","youtubeSearch":"Iceland aurora live cam YouTube","youtubeVideoId":""}]
+[
+  {
+    "category": "街",
+    "description": "世界有数の人通りを誇る交差点。夕方から夜のネオンが特に見どころ。",
+    "id": "shibuya-scramble",
+    "lat": 35.6595,
+    "lng": 139.7005,
+    "name": "渋谷スクランブル交差点",
+    "place": "東京・渋谷",
+    "youtubeChannelId": "",
+    "youtubeVideoId": "dfVK7ld38Ys"
+  },
+  {
+    "category": "街",
+    "description": "渋谷センター街の入口付近。シブヤテレビジョンによる24時間配信。",
+    "id": "shibuya-center-gai",
+    "lat": 35.6599,
+    "lng": 139.7,
+    "name": "渋谷センター街",
+    "place": "東京・渋谷",
+    "youtubeChannelId": "",
+    "youtubeVideoId": "CmVnsv71Qr8"
+  },
+  {
+    "category": "街",
+    "description": "文化村通りと道玄坂下交差点付近の様子。",
+    "id": "shibuya-bunkamura",
+    "lat": 35.6608,
+    "lng": 139.6986,
+    "name": "渋谷・文化村通り",
+    "place": "東京・渋谷",
+    "youtubeChannelId": "",
+    "youtubeVideoId": "NDW4PC7vfSY"
+  },
+  {
+    "category": "街",
+    "description": "宮益坂交差点を見下ろすライブカメラ。チャンネルの最新ライブを自動表示します。",
+    "id": "shibuya-ai-vision",
+    "lat": 35.6614,
+    "lng": 139.7023,
+    "name": "渋谷 Ai Vision / 宮益坂",
+    "place": "東京・渋谷",
+    "youtubeChannelId": "UCfvMaqBPqsHXSbmmKzpDvow",
+    "youtubeVideoId": ""
+  },
+  {
+    "category": "自然",
+    "description": "河口湖越しの富士山。晴れた早朝が狙い目。河口湖町ケーブルテレビ（KTV）のライブ配信。",
+    "id": "fuji-kawaguchiko",
+    "lat": 35.5175,
+    "lng": 138.7514,
+    "name": "富士山・河口湖",
+    "place": "山梨・富士河口湖",
+    "youtubeChannelId": "",
+    "youtubeVideoId": "1cnReFAU04k"
+  },
+  {
+    "category": "自然",
+    "description": "湯けむり上がる湯畑の足湯付近。夜のライトアップも人気。",
+    "id": "kusatsu-yubatake",
+    "lat": 36.6226,
+    "lng": 138.5964,
+    "name": "草津温泉・湯畑",
+    "place": "群馬・草津",
+    "youtubeChannelId": "",
+    "youtubeVideoId": "GF8M-dymsAY"
+  },
+  {
+    "category": "街",
+    "description": "花見小路付近の街並み。サンプル地点：配信IDは差し替え用です。",
+    "id": "kyoto-gion",
+    "lat": 35.0037,
+    "lng": 135.7742,
+    "name": "京都・祇園",
+    "place": "京都・祇園",
+    "youtubeChannelId": "",
+    "youtubeSearch": "京都 祇園 ライブカメラ",
+    "youtubeVideoId": ""
+  },
+  {
+    "category": "街",
+    "description": "道頓堀川と看板の並ぶ繁華街。グリコ看板と戎橋を望む24時間配信。",
+    "id": "osaka-dotonbori",
+    "lat": 34.6687,
+    "lng": 135.5013,
+    "name": "大阪・道頓堀",
+    "place": "大阪・なんば",
+    "youtubeChannelId": "",
+    "youtubeVideoId": "K-ibJs5xuuw"
+  },
+  {
+    "category": "自然",
+    "description": "大通公園とテレビ塔方面。雪まつりの時期は特に混み合います。",
+    "id": "sapporo-odori",
+    "lat": 43.0608,
+    "lng": 141.3525,
+    "name": "札幌・大通公園",
+    "place": "北海道・札幌",
+    "youtubeChannelId": "",
+    "youtubeSearch": "札幌 大通 ライブカメラ",
+    "youtubeVideoId": ""
+  },
+  {
+    "category": "海・港",
+    "description": "県庁近くの朝日新聞社から、ゆいレールと国際通り方面を望むライブ配信。",
+    "id": "naha-kokusai",
+    "lat": 26.2159,
+    "lng": 127.6789,
+    "name": "那覇・国際通り",
+    "place": "沖縄・那覇",
+    "youtubeChannelId": "",
+    "youtubeVideoId": "6HYjCFkmDPA"
+  },
+  {
+    "category": "街",
+    "description": "眠らない街の中心。EarthCamのタイムズスクエア・クロスローズ配信。",
+    "id": "nyc-times-square",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "name": "タイムズスクエア",
+    "place": "アメリカ・ニューヨーク",
+    "youtubeChannelId": "",
+    "youtubeVideoId": "KHy_n-EMWY8"
+  },
+  {
+    "category": "海・港",
+    "description": "大運河とリアルト橋を行き交うゴンドラと水上バス。SkylineWebcamsの24時間配信。",
+    "id": "venice-grand-canal",
+    "lat": 45.4371,
+    "lng": 12.3358,
+    "name": "ヴェネツィア・運河",
+    "place": "イタリア・ヴェネツィア",
+    "youtubeChannelId": "",
+    "youtubeVideoId": "x4AlaibltlA"
+  },
+  {
+    "category": "動物",
+    "description": "水場に集まる野生動物を狙うカメラ。早朝・夕方が活発。",
+    "id": "kenya-safari",
+    "lat": -1.4061,
+    "lng": 36.9608,
+    "name": "サファリ・ウォーターホール",
+    "place": "ケニア",
+    "youtubeChannelId": "",
+    "youtubeSearch": "Africam live safari cam YouTube",
+    "youtubeVideoId": ""
+  },
+  {
+    "category": "自然",
+    "description": "晴れた冬の夜にオーロラが出ることがあります。",
+    "id": "reykjavik-aurora",
+    "lat": 64.1466,
+    "lng": -21.9426,
+    "name": "オーロラ観測地点",
+    "place": "アイスランド・レイキャビク",
+    "youtubeChannelId": "",
+    "youtubeSearch": "Iceland aurora live cam YouTube",
+    "youtubeVideoId": ""
+  }
+]
