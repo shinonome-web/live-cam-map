@@ -13,13 +13,38 @@ let activeCategory = "すべて";
 let markers = new Map();
 
 const map = L.map("map", { worldCopyJump: true }).setView([36.5, 138.5], 5);
-L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  maxZoom: 19,
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
+
+// ベースマップ（地図画像）の切り替え。データ（ピン）は共通で、絵柄だけが変わる。
+const osmAttr = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+const baseLayers = {
+  "標準": L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19, attribution: osmAttr
+  }),
+  "淡色": L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+    maxZoom: 20, subdomains: "abcd", attribution: osmAttr + ' &copy; <a href="https://carto.com/attributions">CARTO</a>'
+  }),
+  "ダーク": L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+    maxZoom: 20, subdomains: "abcd", attribution: osmAttr + ' &copy; <a href="https://carto.com/attributions">CARTO</a>'
+  }),
+  "地形": L.tileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", {
+    maxZoom: 17, subdomains: "abc",
+    attribution: 'Map data: ' + osmAttr + ', <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+  }),
+  "航空写真": L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
+    maxZoom: 19,
+    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+  }),
+  "地理院地図": L.tileLayer("https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png", {
+    maxZoom: 18, attribution: '&copy; <a href="https://maps.gsi.go.jp/development/ichiran.html">国土地理院</a>'
+  })
+};
+baseLayers["標準"].addTo(map);
 
 const cluster = L.markerClusterGroup();
 map.addLayer(cluster);
+
+// 右上の切り替えUI：ベースマップはラジオ選択、ピンは表示/非表示のトグル
+L.control.layers(baseLayers, { "カメラのピン": cluster }, { collapsed: true }).addTo(map);
 
 const listEl = document.getElementById("camList");
 const chipsEl = document.getElementById("categoryBar");
